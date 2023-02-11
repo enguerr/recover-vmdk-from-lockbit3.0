@@ -1,3 +1,5 @@
+![lockbit](https://user-images.githubusercontent.com/9450193/218279017-f80057b4-8830-46af-b77e-211decbcfb99.jpeg)
+
 # recover-vmdk-from-lockbit3.0
 Recovering VMDK parts from lockbit 3.0
 You are a victim of lockbit 3.0, also known as Lockbit BLACK, and your VSPHERE DATASTORE is encrypted with the .lockbit extension.
