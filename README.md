@@ -1,9 +1,9 @@
 # recover-vmdk-from-lockbit3.0
 Recover VMDK partts from lockbit 3.0
-you are victtim of lockbit 3.0 aka Lockbit BLACK and your VSPHERE DATASTORE are cryptted with .lockbit extension.
+you are victtim of lockbit 3.0 aka Lockbit BLACK and your VSPHERE DATASTORE are crypted with .lockbit extension.
 Here is a little script to recover data from inside of your VMDK. 
 
- Please star my repository to let it know by the people. 
+ Please star my repository to let it known by the people. 
  
 # how to use it
  you need to dd the beginning of clean vmdk of the same type(same windows version for example).
