@@ -23,9 +23,9 @@ Download the zob.img file to your working environment.
    
 # limitation
 dont put more than 9 vms in the vm_list file. 
-You ahve only 9 loop device. 
+You have only 9 loop device. 
   
 # expectation
-you wan then browse your partition files and hope they will be recovered ... (cross your fingers)
+browse your partition files and hope they will be recovered ... (cross your fingers)
 
 GOOD LUCK!
