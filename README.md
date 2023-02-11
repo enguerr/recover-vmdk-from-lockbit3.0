@@ -1,15 +1,15 @@
 # recover-vmdk-from-lockbit3.0
-Recover VMDK partts from lockbit 3.0
-you are victtim of lockbit 3.0 aka Lockbit BLACK and your VSPHERE DATASTORE are crypted with .lockbit extension.
-Here is a little script to recover data from inside of your VMDK. 
+Recovering VMDK parts from lockbit 3.0
+You are a victim of lockbit 3.0, also known as Lockbit BLACK, and your VSPHERE DATASTORE is encrypted with the .lockbit extension.
+Here is a small script to recover data from inside your VMDK.
 
- Please star my repository to let it known by the people. 
+Please star my repository to make it known to people.
  
 # how to use it
- you need to dd the beginning of clean vmdk of the same type(same windows version for example).
-  the command to run on the ESX :
+ You need to dd the beginning of a clean vmdk of the same type (for example, the same Windows version).
+ The command to run on the ESX:
   `dd if=MY_VM_NAME-flat.vmdk of=zob.img bs=1M count=1`
- download the zob.img file to your work environnement.
+Download the zob.img file to your working environment.
  
 # requirement:
  - centos 7.0
@@ -26,6 +26,6 @@ dont put more than 9 vms in the vm_list file.
 You ahve only 9 loop device. 
   
 # expectation
-you wan then browse your partitions files and hope them to be recovered ... (cross finger)
+you wan then browse your partition files and hope they will be recovered ... (cross your fingers)
 
 GOOD LUCK!
